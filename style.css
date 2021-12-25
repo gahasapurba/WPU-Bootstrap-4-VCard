@@ -1,0 +1,58 @@
+body {
+	font-family 		: 'Montserrat', sans-serif;
+}
+
+nav, nav a {
+	text-transform 		: uppercase;
+	color 				: white;
+}
+
+nav a.active {
+	color 				: #475CFD;
+	font-weight 		: bold;
+}
+
+nav a:hover {
+	color 				: #475CFD;
+}
+
+nav h5 {
+	font-weight 		: bold;
+}
+
+.card {
+	background-color 	: #050A27;
+}
+
+.card-body {
+	position 			: relative;
+	overflow 			: hidden;
+}
+
+.main h1 {
+	color 				: white;
+	font-weight 		: 100;
+}
+
+.main h1 span {
+	font-weight 		: 600;
+	color 				: #475CFD;
+}
+
+.main p {
+	font-size 			: 20px;
+	font-weight 		: 100;
+	color 				: white;
+}
+
+.main button {
+	background-color 	: #FF4887;
+	color 				: white;
+}
+
+.gambar {
+	position 			: absolute;
+	width 				: 50%;
+	right 				: -60px;
+	bottom 				: -60px;
+}
